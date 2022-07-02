@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.tab-nav{
+    height: 50px;
+    background-color: #0ca89b;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #2f2f2f;
+}
+
+.tab-nav a{
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;padding: 0px 5px;
+}
+
+.tab-nav a:hover{
+    background-color: #be7db9;
+    color: rgb(226, 182, 37);
+}
+
+.content{
+    padding: 5px 20px;
+    display: none;
+}
+.active{
+    background-color: #e61111;
+    color: black;
+}
